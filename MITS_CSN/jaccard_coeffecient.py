@@ -1,5 +1,5 @@
 class JaccardCoefficient:
-    def _init_(self, string1, string2):
+    def __init__(self, string1, string2):
         self.string1 = set(string1)
         self.string2 = set(string2)
 
